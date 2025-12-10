@@ -1,0 +1,17 @@
+# Write a program to check whether the given number is prime or not 
+
+num = int(input("Enter any number:")
+flag = False
+
+if(num == 0):
+    print("Not a valid input!! try other numbers")
+
+if(num>1):
+    for i in (2,num):
+        if(num%i == 0):
+            flag = True
+            break
+if flag:
+    print("{} is not a prime number.format(num)")
+else:
+    print("{} is a prime number.format(num)")
