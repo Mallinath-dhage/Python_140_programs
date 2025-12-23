@@ -24,3 +24,23 @@ else:
 #In line 14, removed the last digit from the number by performing integer floor division by 10.
 #In line 16-20, compared the calculated sum with the original number to determine if it is an Armstrong number or not and printed the result.
 #The program handles only positive integers as input.
+
+
+
+
+# WAP to find the armstrong number in given range of numbers
+
+lower = int(input ("Enter first number:"))
+upper = int(input ("Enter second number:"))
+for num in range(lower, upper + 1):
+    nu = len(str(num))
+    temp = num
+    sum = 0
+
+    while temp > 0:
+        d = temp % 10
+        sum += d**nu
+        temp //= 10
+
+    #if sum == num:
+    print(sum)
