@@ -13,6 +13,6 @@ while temp > 0:
     temp //= 10
 
 if sum == num:
-    print(f"Given number {} is an Armstrong number",num)
+    print(f"Given number", {num} "is an Armstrong number.")
 else:
-    print(f"Given number {} is not an Armstrong number", num)
+    print(f"Given number"  {num} "is not an Armstrong number.")
